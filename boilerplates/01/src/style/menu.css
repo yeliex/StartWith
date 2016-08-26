@@ -1,0 +1,105 @@
+aside {
+  top: 2rem;
+  left: 0;
+  bottom: 0;
+  width: 20rem;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  background: #404040;
+}
+
+.wechat aside {
+  top: 0;
+}
+
+main .sidebar.toggle.wrapper {
+  height: 5rem;
+  width: 100%;
+  background: #ffffff;
+  z-index: 1000;
+  top: 2rem;
+  left: 0;
+  padding: 1rem 1rem 0;
+  position: fixed;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  display: none;
+}
+
+.wechat main .sidebar.toggle.wrapper {
+  top: 0;
+}
+
+main .sidebar.toggle.wrapper + * {
+  margin-bottom: 1rem;
+}
+
+main button.sidebar.toggle {
+  z-index: 1000;
+  display: none;
+  font-size: 2rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+@media only screen and (max-width: 1279px) {
+  aside {
+    left: -20rem;
+    position: fixed;
+    z-index: 999;
+    opacity: .95;
+    -webkit-transition: left .5s ease;
+    transition: left .5s ease;
+  }
+
+  main .sidebar.toggle.wrapper {
+    display: block;
+  }
+
+  main .sidebar.toggle.wrapper.visible {
+    background: transparent;
+    padding-left: 17rem;
+    -webkit-transition: padding .5s ease;
+    transition: padding .5s ease;
+  }
+
+  aside.visible {
+    left: 0;
+  }
+
+  main button.sidebar.toggle {
+    display: block;
+  }
+
+  main button.sidebar.toggle.visible {
+    color: #ffffff;
+  }
+}
+
+aside .about {
+  width: 100%;
+  height: 7rem;
+  padding-left: 10%;
+}
+
+aside .logo {
+  /*background-image: url("/assets/images/icon_logo_white_hor_.svg");*/
+  /*background-position: center left;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: 50%;*/
+  color: #FFFFFF;
+  line-height: 7rem;
+  font-size: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+aside footer {
+  padding-top: 3.5rem;
+  text-align: center;
+  font-size: 1rem;
+  width: 100%;
+  color: rgba(255, 255, 255, .4);
+}
+

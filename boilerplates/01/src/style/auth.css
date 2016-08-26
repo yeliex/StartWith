@@ -1,0 +1,21 @@
+.auth {
+    height: 100%;
+    width: 100%;
+}
+
+.auth form {
+    margin: 10% auto;
+    height: 60%;
+    width: 348px;
+}
+
+.auth form label, .auth form input {
+    font-size: 1.2rem;
+}
+.auth form button {
+    margin-left: 1rem;
+}
+
+.auth main {
+    width: 100%;
+}

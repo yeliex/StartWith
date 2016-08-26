@@ -1,0 +1,40 @@
+{
+  "name": "startwith",
+  "version": "0.0.9",
+  "description": "前端通用脚手架",
+  "main": "bin/index.js",
+  "bin": {
+    "StartWith": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "depends",
+    "scripts"
+  ],
+  "scripts": {
+    "prepublish": "node scripts/publish.js",
+    "publish": "rm -rf depends",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeliex/StartWith.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "builder",
+    "stage",
+    "front-end"
+  ],
+  "author": "yeliex",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/yeliex/StartWith/issues"
+  },
+  "homepage": "https://github.com/yeliex/StartWith#readme",
+  "dependencies": {
+    "rimraf": "^2.5.4",
+    "tar-fs": "^1.13.2",
+    "yargs": "^5.0.0"
+  }
+}
