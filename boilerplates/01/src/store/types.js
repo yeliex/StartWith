@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Eagle
- * Description: 定义所有 action types (keymirror的array实现)
- */
-
 const Types = [
   'LOGIN_START',
   'LOGIN_REQUEST',

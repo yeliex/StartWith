@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Kratos
- * Description:
- */
-
 import React, { Component } from 'react';
 import { success } from './Message';
 import { Modal, Icon } from 'antd';

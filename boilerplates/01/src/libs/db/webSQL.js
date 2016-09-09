@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Kratos
- * Description:
- */
-
 // var db, that = {};
 //
 // const init = function init() {

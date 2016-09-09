@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Eagle
- * Description:
- */
-
 import { takeLatest, takeEvery } from 'redux-saga';
 import { take, call, put, fork } from 'redux-saga/effects';
 import { error, success, loading } from '../../components/Message';

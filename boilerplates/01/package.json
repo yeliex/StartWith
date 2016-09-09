@@ -1,12 +1,12 @@
 {
-  "name": "didaparking",
-  "version": "0.9.0",
+  "name": "startwith",
+  "version": "0.0.1",
   "private": true,
-  "description": "dida parking wechat",
+  "description": "startwith boilerplates",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yeliex/wxs.git"
+    "url": "git+https://github.com/yeliex/StartWith.git"
   },
   "author": "yeliex",
   "license": "UNLICENSED",
@@ -57,7 +57,7 @@
   ],
   "scripts": {
     "clean": "rm -rf *.json.gzip",
-    "start": "dora --port 16801 --plugins \"webpack,webpack-hmr,livereload?enableJs=true&injectHost=127.0.0.1,browser-history?index=/src/entries/index.html\"",
+    "start": "dora --port 8080 --plugins \"webpack,webpack-hmr,livereload?enableJs=true&injectHost=127.0.0.1,browser-history?index=/src/entries/index.html\"",
     "build": "atool-build -o ./assets/build && npm run clean",
     "lint": "eslint --ext .js,.jsx src/ controllers/ server/ lib/"
   }

@@ -1,11 +1,12 @@
-import React, { Component, PropTypes } from 'react';
+import React from 'react';
+import '../../style/auth.css';
 
-const Error = () => {
+const Auth = ({ children }) => {
   return (
-    <h1>user</h1>
+    <div className="auth">
+      {children}
+    </div>
   )
 };
 
-Error.propTypes = {};
-
-export default Error;
+export default Auth;

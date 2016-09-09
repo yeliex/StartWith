@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Eagle
- * Description: 处理账户相关操作
- */
-
 const isLogin = function isLogin(auth) {
   return (auth.mobile && auth.userkey && auth.lastLogin);
 };

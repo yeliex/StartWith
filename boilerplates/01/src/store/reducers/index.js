@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Eagle
- * Description: require.context返回所有可用的reducers
- */
-
 const context = require.context('./', false, /\.js$/);
 const keys = context.keys().filter(item => item !== './login.js');
 

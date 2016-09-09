@@ -1,6 +1,6 @@
 {
   "name": "startwith",
-  "version": "0.0.9",
+  "version": "1.0.1",
   "description": "前端通用脚手架",
   "main": "bin/index.js",
   "bin": {

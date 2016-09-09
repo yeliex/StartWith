@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Kratos
- * Description:
- */
-
 const query = function query(key) {
   const data = localStorage.getItem(key);
   let parsed;

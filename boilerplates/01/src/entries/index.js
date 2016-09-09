@@ -1,15 +1,9 @@
-/**
- * Creator: yeliex
- * Project: Eagle
- * Description:
- */
-
 if (!process.env.NODE_ENV) {
   process.env.NODE_ENV = 'development';
 }
 
 if (process.env.NODE_ENV !== 'production') {
-  window.api = `/api`;
+  window.api = '/api';
 } else {
   window.api = '/api';
 }

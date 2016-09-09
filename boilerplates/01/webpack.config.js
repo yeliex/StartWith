@@ -9,17 +9,17 @@ const glob = require('glob');
 module.exports = function (webpackConfig) {
   webpackConfig.babel.plugins.push('transform-runtime');
   webpackConfig.babel.plugins.push(['antd', {
-    style: 'css',  // if true, use less
+    style: 'less',  // if true, use less
   }]);
 
-  webpackConfig.module.loaders.forEach(function (loader, index) {
-    if (typeof loader.test === 'function' && loader.test.toString().indexOf('\\.less$') > -1) {
-      loader.test = /\.dont\.exist\.file/;
-    }
-    if (loader.test.toString() === '/\\.module\\.less$/') {
-      loader.test = /\.less$/;
-    }
-  });
+  // webpackConfig.module.loaders.forEach(function (loader, index) {
+  //   if (typeof loader.test === 'function' && loader.test.toString().indexOf('\\.less$') > -1) {
+  //     loader.test = /\.dont\.exist\.file/;
+  //   }
+  //   if (loader.test.toString() === '/\\.module\\.less$/') {
+  //     loader.test = /\.less$/;
+  //   }
+  // });
 
   const files = glob.sync('./src/entries/*.js');
   const newEntries = files.reduce(function (memo, file) {

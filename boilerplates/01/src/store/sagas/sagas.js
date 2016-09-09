@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Eagle
- * Description: sagas
- */
-
 import { fork } from 'redux-saga/effects';
 
 const context = require.context('./', false, /\.js$/);

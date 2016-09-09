@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Eagle
- * Description: 处理所有短信发送相关
- */
-
 import { handleActions } from 'redux-actions';
 import Types from '../types';
 

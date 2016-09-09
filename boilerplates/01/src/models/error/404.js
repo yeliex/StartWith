@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Eagle
- * Description:
- */
-
 import React, { Component, PropTypes } from 'react';
 
 const Error = () => {

@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Eagle
- * Description:
- */
-
 import { createStore, applyMiddleware, compose, combineReducers } from 'redux';
 import { hashHistory } from 'react-router';
 import { routerReducer as routing, routerMiddleware } from 'react-router-redux';

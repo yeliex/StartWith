@@ -1,8 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Eagle
- * Description:
- */
 import { handleActions } from 'redux-actions';
 import Types from '../types';
 

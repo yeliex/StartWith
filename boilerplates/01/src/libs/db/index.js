@@ -1,9 +1,3 @@
-/**
- * Creator: yeliex
- * Project: Kratos
- * Description:
- */
-
 // 判断平台使用不同的东西
 
 // 优先使用websql
