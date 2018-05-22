@@ -35,6 +35,6 @@
   "dependencies": {
     "rimraf": "^2.5.4",
     "tar-fs": "^1.13.2",
-    "yargs": "^5.0.0"
+    "yargs": "^11.0.0"
   }
 }
