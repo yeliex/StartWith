@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "boilerplates/01/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
